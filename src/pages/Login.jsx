@@ -100,29 +100,28 @@ const Login = () => {
 
           <div className="divider">Or continue with</div>
          <div className="divider">
-  <span>Or continue with</span>
-</div>
-
-<div className="social-login">
-  <button className="social-btn google">
-    <img
-      src="https://www.svgrepo.com/show/475656/google-color.svg"
-      alt="Google"
-    />
-    Google
-  </button>
-
-  <button className="social-btn linkedin">
-    <img
-      src="https://www.svgrepo.com/show/475661/linkedin-color.svg"
-      alt="LinkedIn"
-    />
-    LinkedIn
-  </button>
-</div>
+ 
+         </div>
+         <div className="social-login">
+          <button className="social-btn google">
+            <img
+            src="https://www.svgrepo.com/show/475656/google-color.svg"
+            alt="Google"
+            />
+           Google
+          </button>
+          <button className="social-btn linkedin">
+            <img
+            src="https://www.svgrepo.com/show/475661/linkedin-color.svg"
+            alt="LinkedIn"
+            />
+           LinkedIn
+          </button>
+         </div>
 
           <p className="signup-link">
-            Don’t have an account? <span>Sign up for free</span>
+            Don’t have an account? 
+            <span>Sign up for free</span>
           </p>
         </div>
       </div>

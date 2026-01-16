@@ -1,5 +1,12 @@
 /* GLOBAL */
-* {
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #ffffff;
+}
+* 
+{
   box-sizing: border-box;
   font-family: "Segoe UI", sans-serif;
 }
@@ -60,9 +67,13 @@
   flex: 1;
   padding: 60px;
   background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .login-right h2 {
+  margin-top: 90px;
   color: #0f172a;
   font-weight: 700;
 }
@@ -209,10 +220,11 @@
 }
 
 /* DIVIDER */
+
 .divider {
   text-align: center;
   margin: 30px 0 20px;
-  color: #64748b;
+  color: #475569;
   font-size: 14px;
 }
 
