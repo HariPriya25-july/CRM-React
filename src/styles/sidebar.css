@@ -1,0 +1,35 @@
+.sidebar {
+  width: 260px;
+  height: 100vh;
+  background-color: #020617;
+  padding: 24px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #38bdf8;
+  margin-bottom: 32px;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.sidebar a {
+  color: #cbd5f5;
+  padding: 10px 14px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.sidebar a.active,
+.sidebar a:hover {
+  background: linear-gradient(90deg, #6366f1, #9333ea);
+  color: white;
+}
